@@ -6,7 +6,7 @@
 
 ### AI-Powered Stock Direction Prediction + Human vs AI Game
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-00C896?style=for-the-badge)](https://[YOUR VERCEL URL - add after deploy])
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-00C896?style=for-the-badge)](https://stocksense-gray.vercel.app/)
 [![Kaggle Notebooks](https://img.shields.io/badge/Kaggle-Model_Training-20BEFF?style=for-the-badge&logo=kaggle)](https://kaggle.com/piyushbamnia)
 [![GitHub Stars](https://img.shields.io/github/stars/PIYUSH-BAMNIA-25/stocksense?style=for-the-badge&color=FFD700&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/PIYUSH-BAMNIA-25/stocksense?style=for-the-badge&color=00C896&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense/network)
@@ -61,9 +61,9 @@ The project started as an upgrade from a flawed first-year LSTM model that showe
 
 | Page | Description |
 |------|-------------|
-| [Dashboard](https://[YOUR VERCEL URL - add after deploy]) | Live stock cards with real AI predictions |
-| [Stock Detail](https://[YOUR VERCEL URL - add after deploy]/stock/CEG) | 60-day chart, confidence panel, accuracy history |
-| [Human vs AI Game](https://[YOUR VERCEL URL - add after deploy]/game) | Predict daily directions and beat the AI |
+| [Dashboard](https://stocksense-gray.vercel.app/) | Live stock cards with real AI predictions |
+| [Stock Detail](https://stocksense-gray.vercel.app/stock/GOOGL) | 60-day chart, confidence panel, accuracy history |
+| [Human vs AI Game](https://stocksense-gray.vercel.app/game) | Predict daily directions and beat the AI |
 
 > Predictions update every weekday at **9:30 AM IST** via GitHub Actions.
 
