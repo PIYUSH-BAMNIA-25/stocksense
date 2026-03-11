@@ -37,6 +37,7 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          TF_USE_LEGACY_KERAS: "1"
 
       - name: Confirm predictions saved
         run: python backend/scripts/verify_predictions.py
