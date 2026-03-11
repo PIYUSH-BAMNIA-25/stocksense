@@ -327,8 +327,8 @@ A free Supabase account
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/PIYUSH-BAMNIA-25/stocksense-ai.git
-cd stocksense-ai
+git clone https://github.com/PIYUSH-BAMNIA-25/stocksense.git
+cd stocksense
 ```
 
 ### 2. Download model files
