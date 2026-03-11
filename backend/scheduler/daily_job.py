@@ -35,25 +35,33 @@ def run_predictions():
             result = predict(ticker)
             
             # Save to Supabase
+            xgb_proba = result.get("xgb_proba") or 0.5
+            lstm_proba = result.get("lstm_proba") or xgb_proba
+            ensemble_proba = result.get("ensemble_proba") or xgb_proba
+            direction = result.get("direction") or ("UP" if ensemble_proba >= 0.5 else "DOWN")
+            confidence = result.get("confidence") or round(abs(ensemble_proba - 0.5) * 200, 1)
+
             record = {
                 "ticker": ticker,
                 "date": today,
-                "xgb_proba": result["xgb_proba"],
-                "lstm_proba": result["lstm_proba"],
-                "ensemble_proba": result["ensemble_proba"],
-                "direction": result["direction"],
-                "confidence": result["confidence"],
-            }
+                "xgb_proba": round(float(xgb_proba), 4),
+                "lstm_proba": round(float(lstm_proba), 4),
+                "ensemble_proba": round(float(ensemble_proba), 4),
+                "direction": direction,
+                "confidence": round(float(confidence), 1),
+                    }
             
             # Upsert (update if exists, insert if not)
             supabase.table("predictions").upsert(
                 record, on_conflict="ticker,date"
             ).execute()
             
+            lstm_display = f"{result['lstm_proba']:.4f}" if result.get('lstm_proba') is not None else 'N/A'
+            conf_display = f"{result['confidence']}" if result.get('confidence') is not None else '0'
             print(f"  ✅ {ticker}: {result['direction']} "
-                  f"(confidence: {result['confidence']}%, "
+                  f"(confidence: {conf_display}%, "
                   f"XGB: {result['xgb_proba']:.4f}, "
-                  f"LSTM: {result['lstm_proba']:.4f if result['lstm_proba'] else 'N/A'})")
+                  f"LSTM: {lstm_display})")
         
         except Exception as e:
             print(f"  ❌ Error for {ticker}: {e}")
