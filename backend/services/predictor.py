@@ -51,7 +51,7 @@ def _load_lstm_model():
     if _lstm_model is None:
         try:
             import tensorflow as tf
-            model_path = os.path.join(MODELS_DIR, "lstm_final_model.keras")
+            model_path = os.path.join(MODELS_DIR, "lstm_final_model_v2.keras")
             _lstm_model = tf.keras.models.load_model(model_path)
         except ImportError:
             print("WARNING: TensorFlow not installed. LSTM predictions will use XGBoost only.")
