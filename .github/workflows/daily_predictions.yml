@@ -1,0 +1,59 @@
+name: Daily Stock Predictions
+
+on:
+  schedule:
+    - cron: '0 4 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          cd backend
+          pip install -r requirements.txt
+
+      - name: Download model files from releases
+        run: |
+          cd backend/models
+          gh release download v1.0-models
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run daily predictions
+        run: |
+          cd backend
+          python scheduler/daily_job.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
+      - name: Confirm predictions saved
+        run: |
+          cd backend
+          python -c "
+          from database.supabase_client import get_supabase_client
+          from datetime import date
+          import os, sys
+          s = get_supabase_client()
+          r = s.table('predictions').select('ticker').eq('date', date.today().isoformat()).execute()
+          count = len(r.data)
+          print(f'Predictions saved today: {count}')
+          if count < 5:
+              print('ERROR: Expected 5 predictions')
+              sys.exit(1)
+          print('SUCCESS: All 5 predictions saved')
+          "
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
