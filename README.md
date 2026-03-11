@@ -75,13 +75,13 @@ The project started as an upgrade from a flawed first-year LSTM model that showe
 
 | Notebook | Description | Link |
 |----------|-------------|------|
-| Phase 1 — Data Loading | 10 years OHLCV via yfinance, 10,999 rows | [![Kaggle](https://img.shields.io/badge/Open-Kaggle-20BEFF?logo=kaggle)](https://kaggle.com/piyushbamnia/phase1 <!-- TODO: update Kaggle URL -->) |
-| Phase 2 — EDA | 8 analysis plots, distribution analysis | [![Kaggle](https://img.shields.io/badge/Open-Kaggle-20BEFF?logo=kaggle)](https://kaggle.com/piyushbamnia/phase2 <!-- TODO: update Kaggle URL -->) |
-| Phase 3 — Feature Engineering | 32 features per stock, fixed MACD formula | [![Kaggle](https://img.shields.io/badge/Open-Kaggle-20BEFF?logo=kaggle)](https://kaggle.com/piyushbamnia/phase3 <!-- TODO: update Kaggle URL -->) |
-| Phase 4 — Data Preparation | RobustScaler, time-series splits, 3D LSTM arrays | [![Kaggle](https://img.shields.io/badge/Open-Kaggle-20BEFF?logo=kaggle)](https://kaggle.com/piyushbamnia/phase4 <!-- TODO: update Kaggle URL -->) |
-| Phase 5C — XGBoost Walk-Forward | 12-round validation, AUC 0.5215 | [![Kaggle](https://img.shields.io/badge/Open-Kaggle-20BEFF?logo=kaggle)](https://kaggle.com/piyushbamnia/phase5c <!-- TODO: update Kaggle URL -->) |
-| Phase 5D — LSTM Walk-Forward | 12-round validation, AUC 0.5522 | [![Kaggle](https://img.shields.io/badge/Open-Kaggle-20BEFF?logo=kaggle)](https://kaggle.com/piyushbamnia/phase5d <!-- TODO: update Kaggle URL -->) |
-| Phase 6 — Evaluation | Per-stock analysis, ensemble decision | [![Kaggle](https://img.shields.io/badge/Open-Kaggle-20BEFF?logo=kaggle)](https://kaggle.com/piyushbamnia/phase6 <!-- TODO: update Kaggle URL -->) |
+| Phase 1 — Data Loading | 10 years OHLCV via yfinance, 10,999 rows | |
+| Phase 2 — EDA | 8 analysis plots, distribution analysis |  |
+| Phase 3 — Feature Engineering | 32 features per stock, fixed MACD formula |  |
+| Phase 4 — Data Preparation | RobustScaler, time-series splits, 3D LSTM arrays | [![Kaggle](https://img.shields.io/badge/Open-Kaggle-20BEFF?logo=kaggle)(https://www.kaggle.com/code/piyushbamnia/stocksense) |
+| Phase 5C — XGBoost Walk-Forward | 12-round validation, AUC 0.5215 |  |
+| Phase 5D — LSTM Walk-Forward | 12-round validation, AUC 0.5522 |  |
+| Phase 6 — Evaluation | Per-stock analysis, ensemble decision |  |
 
 ### What the original project did wrong
 
