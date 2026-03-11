@@ -12,7 +12,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/PIYUSH-BAMNIA-25/stocksense?style=for-the-badge&color=00C896&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense/network)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-[![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPIYUSH-BAMNIA-25%2Fstocksense-ai&count_bg=%2300C896&title_bg=%230A0F0A&icon=github&icon_color=%23FFFFFF&title=Views&edge_flat=false)](https://github.com/PIYUSH-BAMNIA-25/stocksense-ai)
+[![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPIYUSH-BAMNIA-25%2Fstocksense&count_bg=%2300C896&title_bg=%230A0F0A&icon=github&icon_color=%23FFFFFF&title=Views&edge_flat=false)](https://github.com/PIYUSH-BAMNIA-25/stocksense)
 [![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat-square&logo=python)](https://python.org)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
