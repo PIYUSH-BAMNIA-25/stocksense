@@ -8,8 +8,8 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-00C896?style=for-the-badge)](https://[YOUR VERCEL URL - add after deploy])
 [![Kaggle Notebooks](https://img.shields.io/badge/Kaggle-Model_Training-20BEFF?style=for-the-badge&logo=kaggle)](https://kaggle.com/piyushbamnia)
-[![GitHub Stars](https://img.shields.io/github/stars/PIYUSH-BAMNIA-25/stocksense-ai?style=for-the-badge&color=FFD700&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense-ai/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/PIYUSH-BAMNIA-25/stocksense-ai?style=for-the-badge&color=00C896&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense-ai/network)
+[![GitHub Stars](https://img.shields.io/github/stars/PIYUSH-BAMNIA-25/stocksense?style=for-the-badge&color=FFD700&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/PIYUSH-BAMNIA-25/stocksense?style=for-the-badge&color=00C896&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense/network)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPIYUSH-BAMNIA-25%2Fstocksense-ai&count_bg=%2300C896&title_bg=%230A0F0A&icon=github&icon_color=%23FFFFFF&title=Views&edge_flat=false)](https://github.com/PIYUSH-BAMNIA-25/stocksense-ai)
