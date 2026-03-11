@@ -2,8 +2,8 @@ fastapi>=0.115.0
 uvicorn[standard]>=0.30.0
 supabase>=2.7.0
 xgboost>=2.1.0
-tensorflow==2.15.0
-keras==2.15.0
+tensorflow-cpu==2.15.0
+tf-keras==2.15.0
 yfinance>=0.2.40
 pandas>=2.2.0
 numpy>=1.26.0
