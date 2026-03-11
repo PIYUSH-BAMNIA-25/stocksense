@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/StockSense-AI-00C896?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0zIDEzbDQtNCA0IDQgNC04IDQgNHYzSDN6Ii8+PC9zdmc+" alt="StockSense"/>
+<img src="https://img.shields.io/badge/StockSense-00C896?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0zIDEzbDQtNCA0IDQgNC04IDQgNHYzSDN6Ii8+PC9zdmc+" alt="StockSense"/>
 
-# StockSense AI
+# StockSense 
 
 ### AI-Powered Stock Direction Prediction + Human vs AI Game
 
