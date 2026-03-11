@@ -501,7 +501,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ⭐ Star this repo if you found it useful!
 
-[![GitHub Stars](https://img.shields.io/github/stars/PIYUSH-BAMNIA-25/stocksense-ai?style=for-the-badge&color=FFD700&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense-ai/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/PIYUSH-BAMNIA-25/stocksense?style=for-the-badge&color=FFD700&logo=github)](https://github.com/PIYUSH-BAMNIA-25/stocksense/stargazers)
 
 *⚠️ Not financial advice — For educational purposes only*
 
